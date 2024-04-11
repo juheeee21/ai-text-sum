@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AI Text Summarizer App</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body><!--header-->
+    <h1>AI Text Summarizer</h1>
+    <p>Welcome to text Summarizer, This app leverage the power of AI and API to consize summary of long text</p>
+
+    <!--textarea-->
+    <div class="container">
+        <div class="text-box">
+            <textarea id="text to summarize" name="text to summarize" placeholder="place in some text to summarize(min length is 200 chars and max length is 100000 chars)"
+            maxlength="100000"></textarea>
+            <button id="submit-button" class="submit-button"> <span class="submit-button-text">Summarize</span></button>
+           
+        </div>
+        <!--display area-->
+        <div class="text-box">
+            <textarea id="summary" name="summarized_text" placeholder="Summarized text will appear here"></textarea>
+        </div>
+
+    </div>
+<script src="script.js"></script>
+    </body>
+</html>
